@@ -1,0 +1,14 @@
+.headlines {
+    color: var(--bg-gradient-body-desaturated);
+    font-weight: 700;
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.simple-text {
+    color: var(--very-gray-blue);
+    line-height: 1.2;
+    padding: 0 2rem;
+    font-weight: 400;
+}
+

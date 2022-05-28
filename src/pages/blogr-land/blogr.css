@@ -1,0 +1,40 @@
+:root {
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+    --light-red: hsl(356, 100%, 66%);
+    --very-light-red: hsl(355, 100%, 74%);
+    --very-light-blue: hsl(208, 49%, 24%);
+
+    --white: hsl(0, 0%, 100%);
+    --grey-blue: hsl(240, 2%, 79%);
+    --very-gray-blue: hsl(207, 13%, 34%);
+    --black: hsl(240, 10%, 16%);
+
+    --bg-gradient-light-red-cta: hsl(13, 100%, 72%);
+    --bg-gradient-red-cta: hsl(353, 100%, 62%);
+
+    --bg-gradient-body-blue: hsl(237, 17%, 21%);
+    --bg-gradient-body-desaturated: hsl(237, 23%, 32%);
+
+    --gradient-red: linear-gradient(90deg, hsla(13, 100%, 72%, 1) 22%, hsla(353, 100%, 62%, 1) 70%);
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    background: var(--white);
+    overflow-x: hidden;
+    text-align: center;
+}
+.pointer {
+    cursor: pointer;
+}
+.d-none {
+    display: none;
+}
+
+.overpass {
+    font-family: 'Overpass', sans-serif;
+}
+/*  media query for 1440px */
+@media screen and (min-width: 1440px) {
+
+}

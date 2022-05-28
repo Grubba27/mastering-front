@@ -1,0 +1,9 @@
+
+<svg class="test" xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+    <style>
+        svg {
+        transform: rotate(180deg);
+        }
+    </style>
+    <path fill="none" stroke="#FF7B86" stroke-width="2" d="M1 1l4 4 4-4"/>
+</svg>
