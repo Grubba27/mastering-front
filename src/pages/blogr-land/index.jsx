@@ -9,22 +9,6 @@ export default function BlogrLand() {
   return (
     <div>
       <Header/>
-      <h2>
-        A modern publishing platform
-      </h2>
-      <section>
-        <h3>
-          Grow your audience and build your online brand
-        </h3>
-        <div>
-          <button>
-            Start for Free
-          </button>
-          <button>
-            Learn More
-          </button>
-        </div>
-      </section>
       <TextSection headline="Designed for the future">
         <br/>
         <EditorMobile/>
@@ -49,11 +33,15 @@ export default function BlogrLand() {
       </TextSection>
       <br/>
 
-      {// !--IMG inverted text part --
-      }
-      State of the Art Infrastructure
-      With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
-      This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+      <div className="inverted-section">
+        <h2>
+          State of the Art Infrastructure
+        </h2>
+        <p className="inverted-text">
+          With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+        </p>
+       </div>
       <TextSection>
         <EditorMobile/>
       </TextSection>

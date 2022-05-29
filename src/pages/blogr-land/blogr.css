@@ -19,11 +19,20 @@
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    padding: 1rem;
     background: var(--white);
     overflow-x: hidden;
     text-align: center;
+    color-scheme: dark;
 }
+h2 {
+    margin-top: 4rem;
+    font-weight: 700;
+}
+
+button {
+    all: unset;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -33,6 +42,21 @@
 
 .overpass {
     font-family: 'Overpass', sans-serif;
+}
+
+.inverted-section {
+    background: url("./images/bg-pattern-circles.svg")  bottom center  var(--bg-gradient-body-blue);
+    background-size: cover;
+    color: var(--white);
+    padding: 2rem 4rem 4rem;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+.inverted-text {
+    color: var(--grey-blue);
+    line-height: 1.2;
+    padding: 0 2rem;
+    font-weight: 400;
 }
 /*  media query for 1440px */
 @media screen and (min-width: 1440px) {

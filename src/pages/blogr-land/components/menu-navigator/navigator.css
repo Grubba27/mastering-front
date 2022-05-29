@@ -8,6 +8,9 @@
     flex-direction: column;
     color: var(--black);
     font-weight: 700;
+    position: absolute;
+    width: 75vw;
+    box-shadow: 0px 3px 13px 0px black;
 }
 .navbar a {
     margin: 1rem;
